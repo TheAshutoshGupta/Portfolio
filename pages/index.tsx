@@ -2,16 +2,12 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiOutlineTwitter, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-import { motion } from "framer-motion";
 
 // images
 import Image from "next/image";
-import p2 from "../public/p2.png";
 import design from "../public/design.png";
 import code from "../public/code.png";
-import web1 from "../public/web1.png";
-import web2 from "../public/web2.png";
-import web3 from "../public/web3.png";
+
 import ashu from "../public/ashu.jpg";
 import firebase from "../public/icons/firebase.png";
 import git from "../public/icons/git.png"
@@ -59,16 +55,10 @@ export default function Home() {
           @import
           url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;800&display=swap');
         </style>
-        <link rel="icon" href="/favicon.icon" />
+        <link rel="icon" href="/AshuIcon.png" />
       </Head>
       
-      {/* <motion.main
-      className={`maskcomp z-10 bg-[#ce4e39] absolute w-full h-screen transform`}
-      animate={{
-        WebkitMaskPosition:`${x}px ${y}px`,
-      }}
-      transition={{ type: "tween", ease: "backOut", duration:0.5}}
-       ></motion.main> */}
+
       
       
       <main className="font-poppins bg-white px-10 md:px -20 lg:px-40 dark:bg-[#1D1D1D]">
@@ -115,13 +105,7 @@ export default function Home() {
             <Image src={ashu} alt="profile" className="absolute inset-0 h-full w-full object-cover"/>
           </div>
             <div className="relative flex justify-center items-center text-center p-10 ">
-            {/* <p className="absolute maskcomp bg-[#ce4e39] r-0 l-0 text-3xl mt-10 font-bold py-2 text-purple-400 leading-10   max-w-3xl mx-auto">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              distinctio nihil fugiat ea perferendis qui nulla facere
-              consequaturipsum dolor sit amet consectetur adipisicing elit.
-              Itaque distinctio nihil fugiat ea perferendis qui nulla facere
-              consequatur
-            </p> */}
+
             <p className=" text-xl mt-10 py-2 text-gray-400 leading-10   max-w-3xl mx-auto">
             In the world of web development, 
             I've honed my skills to deliver high-quality digital 
@@ -236,10 +220,7 @@ export default function Home() {
                 <span>Been an Graphic Designer</span>
                 <span>Now a Full Stack Web Developer</span>
               </p>
-              {/*
-              <h4 className="py-4 text-purple-600 text-left text-md font-semibold">
-                Design tools I use
-              </h4> */}
+      
             
               <p className="px-5 py-3 flex gap-2 text-left dark:text-gray-300 text-gray-600  text-sm"><span className="flex flex-col"
  >Freelance Graphic Designer : 2020-2021 <span className="font-semibold dark:text-gray-300 text-gray-600">Raised 70 K</span>
@@ -249,29 +230,7 @@ export default function Home() {
  </span></p>
               
             </div>
-            {/*  */}
-            {/* <div className="text-center shadow-lg p-5 rounded-xl my-10 dark:bg-gradient-to-b from-purple-600">
-              <Image
-                src={design}
-                width={100}
-                height={100}
-                alt="design"
-                className=" inline py-5"
-              />
-              <h3 className="text-2xl font-bold dark:text-white">consulting</h3>
-              <p className=" text-sm py-2 text-gray-400 leading-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-                distinctio nihil fugiat ea perferendis qui nulla facere
-                consequatur
-              </p>
-              <h4 className="py-4 text-purple-600 text-md font-semibold">
-                Design tools I use
-              </h4>
-              <p className=" text-gray-400 text-sm">Photoshop</p>
-              <p className=" text-gray-400 text-sm">Figma</p>
-              <p className=" text-gray-400 text-sm">Illustrator</p>
-              <p className=" text-gray-400 text-sm">After effects</p>
-            </div> */}
+          
           </div>
         </section>
 
