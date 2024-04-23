@@ -156,16 +156,16 @@ export default function Home() {
 
         <section>
           <div>
-            <h3 className=" text-3xl py-10 font-bold opacity-60 dark:text-white dark:opacity-100">
+            <h3 className=" text-3xl pb-6 pt-10  font-bold opacity-60 dark:text-white dark:opacity-100">
               Through Out 
             </h3>
-            <p className=" text-sm py-2 text-gray-400 leading-6">
+            {/* <p className=" text-sm py-2 text-gray-400 leading-6">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
               distinctio nihil fugiat ea perferendis qui nulla facere
               consequatur dolor sit amet consectetur adipisicing elit. Itaque
               distinctio nihil perferendis qui nulla facere consequatur dolor
               sit amet consectetur adipisicing elit. Itaque distinctio nihil
-            </p>
+            </p> */}
           </div>
           <div className="md:flex lg:flex gap-10 mx-auto">
             <div className="text-center md:w-1/2 shadow-lg p-5 rounded-xl my-10 dark:bg-gradient-to-b from-purple-600 ">
