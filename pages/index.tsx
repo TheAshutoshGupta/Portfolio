@@ -61,7 +61,7 @@ export default function Home() {
 
       
       
-      <main className="font-poppins bg-white px-10 md:px -20 lg:px-40 dark:bg-[#1D1D1D]">
+      <main className="font-poppins overflow-x-hidden bg-white px-6 md:px-20 lg:px-40 dark:bg-[#1D1D1D]">
         
         <section className="min-h-screen">
           <nav className="py-10 mb12 flex justify-between">
@@ -100,9 +100,9 @@ export default function Home() {
             className=" mx-auto
            relative bg-gradient-to-black from-purple-200 w-80
             h-80 mt-12 p-5 rounded-full">
-            <div className="absolute cursor-pointer z-10 inset-0 bg-gradient-to-t from-[#1D1D1D] to-transparent"></div>
+            <div className="absolute inline-flex flex-shrink cursor-pointer z-10 inset-0 bg-gradient-to-t from-[#1D1D1D] to-transparent"></div>
 
-            <Image src={ashu} alt="profile" className="absolute inset-0 h-full w-full object-cover"/>
+            <Image src={ashu} alt="profile" className="absolute inline-flex flex-shrink inset-0 h-full w-full object-cover"/>
           </div>
             <div className="relative flex justify-center items-center text-center p-10 ">
 
