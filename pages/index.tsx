@@ -240,13 +240,9 @@ export default function Home() {
             <h3 className=" text-3xl py-5 font-bold opacity-60 dark:text-white dark:opacity-100">
               Portfolio
             </h3>
-            <p className=" text-sm py-5 text-gray-400 leading-6">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
-              distinctio nihil fugiat ea perferendis qui nulla facere
-              consequatur dolor sit amet consectetur adipisicing elit. Itaque
-              distinctio nihil perferendis qui nulla facere consequatur dolor
-              sit amet consectetur adipisicing elit. Itaque distinctio nihil
-            </p>
+            {/* <p className=" text-sm py-5 text-gray-400 leading-6">
+              
+            </p> */}
           </div>
           {/* images */}
           <div className="flex flex-col mt-4 gap-10 lg:flex-row lg:flex-wrap">
@@ -256,6 +252,7 @@ export default function Home() {
                 src={codeclash}
                 alt="codeclash"
                 className="rounded-lg object-contain w-full h-full m:w-[220px] md:h-[400px]"
+                layout="responsive"
               />
             </a>
             
@@ -264,13 +261,15 @@ export default function Home() {
                 src={putuk}
                 alt="putuk"
                 className="rounded-lg object-cover w-full h-full m:w-[220px] md:h-[400px]"
+                layout="responsive"
               />
             </a>
             <a href="https://hoobanktheashutoshgupta.vercel.app/" className="basis-1/3 flex-1  cursor-pointer hover:scale-105 duration-200">
               <Image
                 src={hoobank}
                 alt="hoobank"
-                className="rounded-lg object-cover w-full h-full"
+                className="rounded-lg object-cover w-full h-full m:w-[220px] md:h-[400px]"
+                layout="responsive"
               />
             </a>
             <a href="https://currencyconvertortheashutoshgupta.vercel.app/" className="basis-1/3 flex-1  cursor-pointer hover:scale-105 duration-200">
@@ -278,6 +277,7 @@ export default function Home() {
                 src={currency}
                 alt="currency"
                 className="rounded-lg object-cover w-full h-full m:w-[220px] md:h-[400px]"
+                layout="responsive"
               />
             </a>
             
