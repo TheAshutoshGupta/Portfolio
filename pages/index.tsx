@@ -65,7 +65,7 @@ export default function Home() {
         
         <section className="min-h-screen">
           <nav className="py-10 mb12 flex justify-between">
-            <h1 className=" text-xl dark:text-white">Ashutosh</h1>
+            <h1 className=" text-xl w-fit  dark:text-white">Ashutosh</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -191,8 +191,8 @@ export default function Home() {
               </h4> */}
               
               <p className="px-5 py-3 flex gap-2 text-left dark:text-gray-300 text-gray-600  text-sm"><span className="flex flex-col"
- >GL Bajaj Institute of Technology and Management : 2021 - 2025<span className="font-semibold dark:text-gray-300 text-gray-600">10th : 89.6%</span>
- <span className="font-semibold dark:text-gray-300 text-gray-600">12th : 86.2%</span>
+ >GL Bajaj Institute of Technology and Management : 2021 - 2025<span className="font-semibold dark:text-gray-300 text-gray-600">8.02 CGPA</span>
+ {/* <span className="font-semibold dark:text-gray-300 text-gray-600">12th : 86.2%</span> */}
  </span></p>
  <p className="px-5 py-3 flex gap-2 text-left dark:text-gray-300 text-gray-600  text-sm"><span className="flex flex-col"
  >Udaya Public School: 2018 - 2020<span className="font-semibold dark:text-gray-300 text-gray-600">10th : 89.6%</span>
