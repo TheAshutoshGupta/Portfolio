@@ -29,6 +29,7 @@ import currency from "../public/projects/currency.png"
 import hoobank from "../public/projects/hoobank.png"
 import putuk from "../public/projects/putuk.png"
 import codeclash from "../public/projects/codeclash.png"
+import logosign from "../public/Signature.png"
 import mask from "../public/mask.svg"
 // import { AnimatePresence } from "framer-motion";
 
@@ -64,7 +65,7 @@ export default function Home() {
       <main className="font-poppins overflow-x-hidden bg-white px-6 md:px-20 lg:px-40 dark:bg-[#1D1D1D]">
         
         <section className="min-h-screen">
-          <nav className="py-10 mb12 flex justify-between">
+          <nav className="py-10 mb-12 flex justify-between">
             <h1 className=" text-xl w-fit  dark:text-white">Ashutosh</h1>
             <ul className="flex items-center">
               <li>
@@ -88,7 +89,7 @@ export default function Home() {
           {/* hero */}
           <div className="text-center p-10 ">
 
-            <h2 className=" text-5xl font-AVD font-bold text-[#ccbaa9] md:text-6xl lg:text-7xl lg:mb-4">
+            <h2 className="text-4xl m-0.5 sm:text-5xl mx-auto font-AVD font-bold text-[#ccbaa9] md:text-6xl lg:text-7xl ">
               Ashutosh Gupta
             </h2>
             <h3 className="text-2xl py-4 md:text-3xl dark:text-white">
@@ -96,17 +97,20 @@ export default function Home() {
             </h3>
             </div>
             {/* profile image */}
-          <div
-            className=" mx-auto
-           relative bg-gradient-to-black from-purple-200 w-80
-            h-80 mt-12 p-5 rounded-full">
+          
+            <div
+            className="mx-auto
+           relative bg-gradient-to-black from-purple-200 min-w-40 sm:w-80
+            h-80 mt-12 sm:p-5 rounded-full">
             <div className="absolute inline-flex flex-shrink cursor-pointer z-10 inset-0 bg-gradient-to-t from-[#1D1D1D] to-transparent"></div>
 
             <Image src={ashu} alt="profile" className="absolute inline-flex flex-shrink inset-0 h-full w-full object-cover"/>
           </div>
-            <div className="relative flex justify-center items-center text-center p-10 ">
 
-            <p className=" text-xl mt-10 py-2 text-gray-400 leading-10   max-w-3xl mx-auto">
+
+            <div className="relative flex justify-center items-center text-center p-4 mt-8 sm:p-10 ">
+
+            <p className=" text-xl mt-10 sm:py-2 text-gray-400 text-left sm:text-center sm:leading-10 max-w-3xl mx-auto">
             In the world of web development, 
             I've honed my skills to deliver high-quality digital 
             experiences. While I specialize in frontend and backend 
