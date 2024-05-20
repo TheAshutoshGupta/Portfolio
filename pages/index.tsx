@@ -65,7 +65,7 @@ export default function Home() {
       <main className="font-poppins overflow-x-hidden bg-white px-6 md:px-20 lg:px-40 dark:bg-[#1D1D1D]">
         
         <section className="min-h-screen">
-          <nav className="py-10 mb-12 flex justify-between">
+          <nav className="pt-10 mb-8 flex justify-between">
             <h1 className=" text-xl w-fit  dark:text-white">Ashutosh</h1>
             <ul className="flex items-center">
               <li>
@@ -101,14 +101,14 @@ export default function Home() {
             <div
             className="mx-auto
            relative bg-gradient-to-black from-purple-200 min-w-40 sm:w-80
-            h-80 mt-12 sm:p-5 rounded-full">
+            h-80 mt-8 sm:p-5 rounded-full">
             <div className="absolute inline-flex flex-shrink cursor-pointer z-10 inset-0 bg-gradient-to-t from-[#1D1D1D] to-transparent"></div>
 
             <Image src={ashu} alt="profile" className="absolute inline-flex flex-shrink inset-0 h-full w-full object-cover"/>
           </div>
 
 
-            <div className="relative flex justify-center items-center text-center p-4 mt-8 sm:p-10 ">
+            <div className="relative flex justify-center items-center text-center p-4 mt-4 sm:p-10 ">
 
             <p className=" text-xl mt-10 sm:py-2 text-gray-400 text-left sm:text-center sm:leading-10 max-w-3xl mx-auto">
             In the world of web development, 
@@ -122,7 +122,7 @@ export default function Home() {
           </div>
           
           {/* social media */}
-          <div className="text-5xl mt-6 flex flex-row justify-center gap-16 text-gray-600">
+          <div className="text-5xl py-4 flex flex-row justify-start sm:justify-center gap-4 sm:gap-16 text-gray-600">
             <a href="https://github.com/TheAshutoshGupta"><AiFillGithub className="hover:text-white hover:scale-105 duration-200" /></a>
             <a href="https://www.linkedin.com/in/ashutooshgupta/"><AiFillLinkedin  className="hover:text-white hover:scale-105 duration-200"/></a>
             <a href="https://twitter.com/TheAshutshgupta"><AiOutlineTwitter  className="hover:text-white hover:scale-105 duration-200"/></a>
