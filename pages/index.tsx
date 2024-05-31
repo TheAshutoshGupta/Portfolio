@@ -2,7 +2,7 @@
 import Head from "next/head";
 import { BsFillMoonStarsFill } from "react-icons/bs";
 import { AiOutlineTwitter, AiFillLinkedin, AiFillGithub } from "react-icons/ai";
-
+import { VelocityScroll } from "./slider";
 // images
 import Image from "next/image";
 import design from "../public/design.png";
@@ -118,6 +118,7 @@ export default function Home() {
             learning and adapting. My goal is simple: <span>perfection</span>, <span>finesse</span> and <span>impact</span>
             </p>
             
+
          
           </div>
           
@@ -130,6 +131,9 @@ export default function Home() {
 
         </section>
         {/* Added Section */}
+        <div className="my-8">
+        <VelocityScroll/> </div>
+        
 
         <section>
           <div>
