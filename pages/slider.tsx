@@ -15,7 +15,7 @@ interface ParallaxProps {
   baseVelocity: number;
 }
 
-export function VelocityScroll() {
+export default function VelocityScroll() {
   function ParallaxText({ children, baseVelocity }: ParallaxProps) {
     const baseX = useMotionValue(0);
     const { scrollY } = useScroll();
