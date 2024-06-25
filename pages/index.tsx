@@ -29,6 +29,9 @@ import currency from "../public/projects/currency.png"
 import hoobank from "../public/projects/hoobank.png"
 import putuk from "../public/projects/putuk.png"
 import codeclash from "../public/projects/codeclash.png"
+import chrome from "../public/projects/chrome.png"
+import Assess from "../public/projects/Assess.png"
+import Auth from "../public/projects/Auth.png"
 import logosign from "../public/Signature.png"
 import mask from "../public/mask.svg"
 // import { AnimatePresence } from "framer-motion";
@@ -76,7 +79,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/14yJUqeOiSlDK5-otcVDxcuDSYhxGdQKh/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1o97Jar4ec4OrqTuBvBlw8Zb1N47YsBx4/view"
                   target="_blank"
                   className=" bg-purple-600 text-white px-4 py-2 boder-none rounded-md "
                 >
@@ -255,10 +258,26 @@ export default function Home() {
           {/* images */}
           <div className="flex flex-col mt-4 gap-10 lg:flex-row lg:flex-wrap">
             
-          <a href="https://codeclash-web.vercel.app/" className=" relative basis-1/3 flex-1 cursor-pointer hover:scale-105 duration-200">
+          <a href="https://course-assessment-ai-sksx.vercel.app/" className=" relative basis-1/3 flex-1 cursor-pointer hover:scale-105 duration-200">
               <Image
-                src={codeclash}
-                alt="codeclash"
+                src={Assess}
+                alt="Assess"
+                className="rounded-lg object-contain w-full h-full m:w-[220px] md:h-[400px]"
+                layout="responsive"
+              />
+            </a>
+          <a href="https://authre.vercel.app/" className=" relative basis-1/3 flex-1 cursor-pointer hover:scale-105 duration-200">
+              <Image
+                src={Auth}
+                alt="Auth"
+                className="rounded-lg object-contain w-full h-full m:w-[220px] md:h-[400px]"
+                layout="responsive"
+              />
+            </a>
+          <a href="https://chromewebstore.google.com/detail/prioritize/fdfpeopajimflfgmpkjbjdmfpofgikih" className=" relative basis-1/3 flex-1 cursor-pointer hover:scale-105 duration-200">
+              <Image
+                src={chrome}
+                alt="chrome"
                 className="rounded-lg object-contain w-full h-full m:w-[220px] md:h-[400px]"
                 layout="responsive"
               />
