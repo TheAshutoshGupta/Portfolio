@@ -79,7 +79,7 @@ export default function Home() {
               </li>
               <li>
                 <a
-                  href="https://drive.google.com/file/d/1o97Jar4ec4OrqTuBvBlw8Zb1N47YsBx4/view"
+                  href="https://drive.google.com/file/d/1mMll14ia0-oJ7_61Ir1VEf1c9gTszNR6/view?usp=sharing"
                   target="_blank"
                   className=" bg-purple-600 text-white px-4 py-2 boder-none rounded-md "
                 >
